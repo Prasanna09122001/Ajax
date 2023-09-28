@@ -8,5 +8,5 @@ function ShowSessionExpire()
     console.log("Activity-B: Your Session expired at "+showtime());
 }
 console.log("Activity-A: Triggering Activity-B at"+showtime());
-setTimeout(ShowSessionExpire,10000);
+setTimeout(ShowSessionExpire,5000);
 console.log("Activity-A: Triggering Activity-B at"+showtime()+" will execute after 5 secs");
